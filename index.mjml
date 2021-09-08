@@ -1,0 +1,60 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-class name="h-1" font-size="38px" line-height="60px" font-weight="700" text-align="left" />
+      <mj-class name="h-2" font-size="13px" line-height="19.5px" text-align="left" />
+
+      <mj-class name="p-1" font-size="14px" line-height="18px" text-align="left" />
+
+
+      <mj-class name="light-grey" background="#f6f6f4" background-color="#f6f6f4" />
+      <mj-class name="white" background="#ffffff" background-color="#ffffff" />
+      <mj-class name="yellow" background="#ffe01b" background-color="#ffe01b" />
+
+      <mj-all font-family="Helvetica Neue, Helvetica, sans-serif" color="#241c15" />
+      <mj-image padding="0" />
+      <mj-section padding="0" border="1px solid #6b96ac" />
+      <mj-text padding="0" />
+      <mj-button background-color="#006853" height="52px" border-radius="50px" font-size="11px" line-height="12px" text-align="center" font-weight="normal" />
+      <mj-divider border-width="1px" border-style="solid" border-color="#005863" padding="10px 18px 27px 18px" />
+    </mj-attributes>
+
+    <mj-style>
+      @media (max-width:480px) {
+        body {
+          padding: 10px !important;
+        }
+      }
+    </mj-style>
+
+  </mj-head>
+  <mj-body background-color="#ffffff">
+    <mj-wrapper border="1px solid red" padding="9px 0px 30px 0px" full-width="full-width" background-color="#f6f6f4">
+      <mj-section full-width="full-width" background-color="#f6f6f4">
+        <mj-column width="600px">
+          <mj-image src="https://i.imgur.com/no3zv8m.png" alt="mailchimp" width="125px" align="left" />
+        </mj-column>
+      </mj-section>
+
+      <mj-section full-width="full-width" background-color="#f6f6f4" padding-top="9px">
+        <mj-column width="600px" padding="0 18px 9px">
+          <mj-text mj-class="h-2">
+            ISSUE 04
+          </mj-text>
+          <mj-text mj-class="h-1">
+            Work Smarter, Not Harder
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section full-width="full-width" background-color="#f6f6f4" padding-bottom="9px">
+        <mj-column width="600px">
+          <mj-text>
+            <img src="https://i.imgur.com/UbpUxa6.png" alt="lookin at iPhone" width="100%" />
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+  </mj-body>
+</mjml>
